@@ -1,0 +1,17 @@
+class Car {
+    String color;
+    int speed;
+
+    void drive() {
+        System.out.println("Car is driving at speed: " + speed);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Car c1 = new Car();  // Object creation
+        c1.color = "Red";
+        c1.speed = 100;
+        c1.drive();
+    }
+}
